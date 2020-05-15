@@ -9,15 +9,15 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
-	background-color: rgb(95, 93, 90);
+	background-color: rgb(19, 19, 19);
 	font-family: 'Poppins', sans-serif;
 }
 
 .logo {
-	color: rgb(226, 226, 226);
+	color: rgb(253, 249, 249);
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .nav-links {
@@ -64,7 +64,7 @@ nav {
 		right: 0px;
 		height: 92vh;
 		top: 8vh;
-		background-color: rgb(95, 93, 90);
+		background-color: rgb(19, 19, 19);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
