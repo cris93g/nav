@@ -28,17 +28,20 @@
         <div class='line3'></div>
     </div>
 </nav>
-<div>
+<div class='formWrapper' style="margin-top:10px">
     <form onsubmit="false" class='form1'>
+        
         <input type='text' placeholder="Name" id='name'/>
         <br/>
+        
         <input type='text' placeholder="Email" id='email' />
         <br/>
     
         <br>
+       
         <textarea id="question" rows="8" placeholder="Message"></textarea>
         <br/>
-        <button onclick="sendContact()">Send contact</button>
+        <button class='contactButton' onclick="sendContact()">Send contact</button>
     </form>
 </div>
 <script src="index.js"></script>

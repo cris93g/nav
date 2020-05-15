@@ -8,12 +8,13 @@
     align-content: center;
 }
 #name{
-    margin-top: 8%;
+    margin-top: 4%;
     border-width:1px;
     margin-left: -17%;
     width: 350px;
     height: 40px;
     border-radius: 10px;
+    font-size: 1.3em;
 }
 #email{
     border-width:1px;
@@ -21,6 +22,7 @@
     width: 350px;
     height: 40px;
     border-radius: 10px;
+     font-size: 1.3em;
     
 }
 
@@ -34,21 +36,39 @@
     #name{
     margin-top: 8%;
     border-width:1px;
-    margin-left: -10%;
     width: 350px;
     height: 40px;
     border-radius: 10px;
 }
 #email{
     border-width:1px;
-    margin-left: -10%;
     width: 350px;
     height: 40px;
     border-radius: 10px;
     
 }
     #question{
-        width: 400px;
+    width: 400px;
     height: 200px;
+    text-size-adjust: 12em;
     }
+}
+
+textarea{
+    font-size: 1.3em;
+}
+.contactButton{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+
+
+.formWrapper{
+    margin-top: 2px;
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
 }
