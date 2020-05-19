@@ -1,27 +1,9 @@
-document.addEventListener('DomContentLoaded',()=>{
-    fields.name = document.getElementById('name')
-    fields.email = document.getElementById('email')
-    fields.question = document.getElementById('question')
-})
+const checkbox = document.querySelector('.my-form input[type="checkbox"]');
+const btns = document.querySelectorAll('.my-form button');
 
-function isNotEmpty(value) {
-    if (value == null || typeof value == 'undefined') return false;
-    return (value.length > 0);
-}
-
-function isEmail(email) {
-    let regex = /^/
-}
-
-function fieldValidation(field, validationFunction) {
-    if (field == null) return false;
-
-    let isFieldValid = validationFunction(field.value)
-    if (!isFieldValid) {
-        field.className = 'placeholderRed';
-    } else {
-        field.className = '';
-    }
-
-    return isFieldValid;
-}
+checkbox.addEventListener('change', function () {
+  const checked = this.checked;
+  for (const btn of btns) {
+    checked ? (btn.disabled = false) : (btn.disabled = true);
+  }
+});
