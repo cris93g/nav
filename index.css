@@ -29,7 +29,7 @@ nav {
 .nav-links li {
 	list-style: none;
 }
-.nav-links a {
+a {
 	color: white;
 	text-decoration: none;
 	letter-spacing: 3px;
@@ -60,6 +60,7 @@ nav {
 		overflow-x: hidden;
 	}
 	.nav-links {
+		
 		position: absolute;
 		right: 0px;
 		height: 92vh;
@@ -78,6 +79,27 @@ nav {
 	.burger {
 		display: block;
 	}
+	.myPic{
+	margin-top: 10%;
+	position: fixed;
+	padding-bottom: 1px;
+	margin-left: 40vw;
+	width: 200px;
+	height: 200px;
+	background-image: url('./pic.jpg');
+	background-size: cover;
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+	.printingText{
+	margin-top: 40%;
+	border-radius: 2%;
+	width:40vw;
+	height:40vh;
+	background-color: black;
+	color:#32CD32;
+	margin:auto;
+}
+
 }
 
 .nav-active {
